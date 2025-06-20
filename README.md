@@ -20,7 +20,7 @@ Includes moderation, AI assistant (OpenRouter), weather info, and more.
 
 | Slash Commands | LLM Chat | Weather |
 |----------------|----------|---------|
-| ![Slash Commands](https://github.com/user-attachments/assets/1d3e334d-4eb4-43c7-9c8e-2f80ae531e8f) | ![LLM Example](![image](https://github.com/user-attachments/assets/e10b3193-027f-43bc-9bdb-839064e4ff98)) | ![Weather Example](![image](https://github.com/user-attachments/assets/c912a03c-b07a-462a-b62c-f5e23aae172d)) |
+| ![Slash Commands](https://github.com/user-attachments/assets/1d3e334d-4eb4-43c7-9c8e-2f80ae531e8f) | ![LLM Example](![Screenshot 2025-06-21 021901](https://github.com/user-attachments/assets/01377772-5914-497d-8e21-691ef82174e2)) | ![Weather Example](![image](https://github.com/user-attachments/assets/c912a03c-b07a-462a-b62c-f5e23aae172d)) |
 
 
 ---
