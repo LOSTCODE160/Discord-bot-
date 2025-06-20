@@ -1,78 +1,71 @@
-Here's a clean and professional `README.md` for your Discord bot project that includes the LLM (OpenRouter) integration, role assignment, profanity filter, and greeting features:
+Thanks for reminding me! ☁️ Your current `README.md` doesn't include the **weather feature**, so let's update the **Features**, **Usage**, and **Setup** sections accordingly.
+
+Here is your **updated all-in-one README** with the weather functionality included:
 
 ---
 
 ````markdown
-# 🤖 Discord Bot — Moderation + LLM Assistant
+# 🤖 Discord Bot — Moderation + LLM + Weather Assistant
 
-A powerful, multifunctional Discord bot built using `discord.py`. This bot features:
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![OpenRouter](https://img.shields.io/badge/LLM-OpenRouter-orange)
 
-- ✅ Automatic role assignment  
-- 💬 LLM integration (via [OpenRouter](https://openrouter.ai))  
-- 🧼 Profanity filtering  
-- 👋 Greeting commands  
-- 📩 Welcome DMs for new members  
-
----
-
-## 📦 Features
-
-### 🛡️ Profanity Filter
-Deletes messages that contain offensive or banned words and warns the user.
-
-### 🤖 LLM Chat with OpenRouter
-Ask intelligent questions using:
-```bash
-/ask Your question here...
-````
-
-Powered by OpenRouter's API — you can choose any supported free model (e.g., Mistral, DeepSeek, Gemma).
-
-### 👋 Greetings
-
-Randomized greetings for users:
-
-```bash
-/hello
-```
-
-### 🎭 Role Assignment
-
-Assigns a pre-defined role to the user:
-
-```bash
-/assign
-```
-
-### 👋 Welcome DM
-
-Sends a friendly DM to any user who joins the server.
+A multifunctional Discord bot built with `discord.py`.  
+Includes moderation, AI assistant (OpenRouter), weather info, and more.
 
 ---
 
-## 🔧 Setup Instructions
+## 📸 Screenshots
 
-### 1. Clone the Repo
+> Place screenshots inside an `assets/` folder in your repo.
 
+| Slash Commands | LLM Chat | Weather |
+|----------------|----------|---------|
+| ![Slash Commands](assets/slash-commands.png) | ![LLM Example](![image](https://github.com/user-attachments/assets/d77301a5-cda7-4fe4-8dc4-076edbddc30f)
+) | ![Weather Example](![image](https://github.com/user-attachments/assets/b3930c11-58a4-48d4-9cd7-89a2a1724950)
+) |
+
+---
+
+## 💡 Features
+
+- 🛡️ **Profanity Filter** — Deletes messages with bad words
+- 🤖 **AI Chat** — Uses OpenRouter's free LLMs
+- 🌦️ **Weather Info** — Get real-time weather using `/weather [city]`
+- 👋 **Greeting** — Sends random welcome messages
+- 🎭 **Auto Role Assignment** — With `/assign`
+- 📩 **Welcome DMs** — Greets new members privately
+
+---
+
+## 🚀 Setup Guide
+
+### 1. Clone This Repo
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
-```
+````
 
 ### 2. Create `.env` File
 
-Create a `.env` file with the following keys:
+Add your tokens:
 
 ```env
 DISCORD_TOKEN=your_discord_bot_token
 OPEN_ROUTER_KEY=your_openrouter_api_key
+WEATHER_API_KEY=your_openweathermap_api_key
 ```
 
-### 3. Install Dependencies
+> You can get free weather API key from [OpenWeather](https://openweathermap.org/api)
+
+### 3. Install Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
+
+Tested on ✅ **Python 3.10+**
 
 ### 4. Run the Bot
 
@@ -82,42 +75,69 @@ python bot.py
 
 ---
 
-## 🌐 Add Bot to Your Server
+## 🧪 Usage Examples
 
-To invite your bot to other servers, use the OAuth2 URL Generator on [Discord Developer Portal](https://discord.com/developers/applications), and select:
-
-* `bot` scope
-* `applications.commands`
-* Permissions: `Send Messages`, `Manage Roles`, etc.
+* `/hello` → Sends a friendly greeting
+* `/ask Why is the sky blue?` → Ask the LLM anything!
+* `/weather Delhi` → Returns current weather for Delhi
+* `/assign` → Assigns user a default role
 
 ---
 
-## 📁 Folder Structure
+## 📁 Project Structure
 
 ```
-📦discord-bot/
- ┣ 📄 bot.py
- ┣ 📄 .env
- ┣ 📄 requirements.txt
- ┗ 📄 README.md
+discord-bot/
+ ┣ 📂 assets/
+ ┃ ┣ slash-commands.png
+ ┃ ┣ llm-chat-example.png
+ ┃ ┗ weather-example.png
+ ┣ bot.py
+ ┣ .env
+ ┣ requirements.txt
+ ┗ README.md
 ```
+
+---
+
+## 🧾 Sample Requirements.txt
+
+```
+discord.py==2.3.2
+httpx
+python-dotenv
+```
+
+---
+
+## 🌐 Add Bot to Server
+
+1. Go to [Discord Developer Portal](https://discord.com/developers/applications)
+2. OAuth2 > URL Generator
+
+   * **Scopes**: `bot`, `applications.commands`
+   * **Permissions**: `Send Messages`, `Read Message History`, `Manage Roles`
+3. Copy the URL → Invite to server
 
 ---
 
 ## 📜 License
 
-MIT © [YourName or LOSTCODE160](https://github.com/LOSTCODE160)
+MIT © [LOSTCODE160](https://github.com/LOSTCODE160)
 
 ---
 
-## 💡 Credits
+## 🙌 Credits
 
-* Built with [discord.py](https://discordpy.readthedocs.io)
-* LLM powered by [OpenRouter](https://openrouter.ai)
+* [discord.py](https://discordpy.readthedocs.io)
+* [OpenRouter](https://openrouter.ai)
+* [OpenWeather API](https://openweathermap.org)
 
 ```
 
 ---
 
-Let me know if you want to add badges (like Python version, OpenRouter model used, etc.) or screenshots.
+If you're **still writing the weather function**, I can provide one that uses OpenWeatherMap API and fits perfectly into your current bot structure.
+
+Would you like me to include the weather command code as well?
 ```
