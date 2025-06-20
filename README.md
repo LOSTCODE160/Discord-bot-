@@ -1,10 +1,8 @@
-Thanks for reminding me! ☁️ Your current `README.md` doesn't include the **weather feature**, so let's update the **Features**, **Usage**, and **Setup** sections accordingly.
 
-Here is your **updated all-in-one README** with the weather functionality included:
 
 ---
 
-````markdown
+
 # 🤖 Discord Bot — Moderation + LLM + Weather Assistant
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
