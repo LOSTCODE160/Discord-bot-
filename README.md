@@ -134,7 +134,5 @@ MIT © [LOSTCODE160](https://github.com/LOSTCODE160)
 
 ---
 
-If you're **still writing the weather function**, I can provide one that uses OpenWeatherMap API and fits perfectly into your current bot structure.
 
-Would you like me to include the weather command code as well?
-```
+
